@@ -1,46 +1,155 @@
-# Getting Started with Create React App
+# 🌿 Eco-Cart ♻ – Sustainable E-commerce Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eco-Cart is a full-stack e-commerce platform designed to encourage *sustainable shopping habits. By scoring products based on eco-friendliness and offering rewards through an **EcoScore* system, Eco-Cart motivates users to make greener choices. This platform reduces plastic usage, raises environmental awareness, and rewards eco-responsible behavior — all while reimagining how technology contributes to sustainable development.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌍 Why Eco-Cart?
 
-### `npm start`
+> “People often shop for what they want. Eco-Cart helps them *shop for what the planet needs*.”
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### ♻ Key Goals:
+- Reduce the use of plastic & harmful materials
+- Encourage eco-conscious product choices
+- Provide *EcoScore* badges and *eco-rewards*
+- Create awareness about sustainability through technology
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Eco-Cart is more than just an online shop — it’s a *green tech movement* under the broader vision of *Sustainable Development Goals (SDGs)*. 🌱
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Tech Stack
 
-### `npm run build`
+- *Frontend:* React.js, Tailwind CSS
+- *Backend:* Node.js, Express.js
+- *Database:* MongoDB
+- *API Integration:* [Fake Store API](https://fakestoreapi.com/)
+- *Authentication:* JWT
+- *Hosting:* Render / Vercel (as per deployment)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Make sure you have the following installed:
+- Node.js (v14+)
+- npm or yarn
+- MongoDB
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Clone the Repository
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+git clone https://github.com/Niharikabutola/eco-cart.git
+cd eco-cart
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+### Setup: Backend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+cd server
+npm install
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Setup: Frontend
+
+bash
+cd client
+npm install
+npm run dev
+
+
+> Update your API base URL in /client/src/api/index.js if needed.
+
+---
+
+
+## 🛒 Features
+
+- 🧾 Product Listing by Category
+- 🔍 Real-Time Search & Filter
+- 🛒 Add to Cart / Remove Items
+- ✅ Secure Checkout Page
+- 🔐 JWT-based Login / Register
+- 🌿 *EcoScore System*:
+  - Products are scored by sustainability
+  - Users earn points for buying greener items
+- 🎁 *EcoRewards* :
+  - Exchange EcoPoints for coupons / badges / impact stats
+- 📊 *Admin Dashboard* (Planned):
+  - Track sales, eco-performance, and top green buyers
+
+---
+
+## 🌱 EcoScore Explained
+
+Each product is assigned an *EcoScore* based on:
+- Material type (plastic, recycled, organic, etc.)
+- Carbon footprint of shipping
+- Packaging type
+- Lifecycle impact
+
+> A higher EcoScore = a greener choice. Users are nudged toward high-scoring products through *rewards* and *badges, making sustainability **gamified and fun*!
+
+---
+
+## 📁 Folder Structure
+
+
+eco-cart/
+│
+├── client/              # React Frontend
+│   └── src/
+│       ├── components/  # UI components
+│       └── pages/       # Page views
+│
+├── server/              # Express Backend
+│   ├── routes/          # API routes
+│   └── controllers/     # Business logic
+│
+└── README.md            # Project documentation
+
+
+---
+
+## 👩‍💻 Team
+
+- *Niharika Butola* – Frontend
+- *Vanita Bhoj* – Backend
+- *Pankaj Singh* - Backend
+- *Ajay Singh* -Database
+
+---
+
+## 🌐 Vision: Reimagining Technology for Sustainable Development
+
+Eco-Cart aligns with *UN Sustainable Development Goals* such as:
+- Responsible Consumption & Production
+- Climate Action
+- Innovation & Infrastructure
+
+By *reimagining everyday shopping through a green lens, Eco-Cart proves that **technology can serve both people and the planet.*
+
+---
+
+## 📬 Contributions Welcome!
+
+We’re a small team building for a big impact. You’re welcome to:
+- Suggest eco-focused ideas
+- Report bugs
+- Add features
+- Spread the message 💚
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+Happy Shopping!!
+
+---
